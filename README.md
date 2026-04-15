@@ -64,9 +64,11 @@ Contoh response:
 
 ## Setup database MySQL:
 🔹Buka database MySQL
+
 🔹Sesuaikan application.properties
 <img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/06017669-5dba-43d4-a861-78a4d8f1afa3" />
 🔹Jalankan project
+
 🔹Test API menggunakan Insomnia / Postman
 <img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/27c0d50c-7e80-47d3-8b7e-d92c6f121cba" />
 
