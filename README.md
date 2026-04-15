@@ -1,4 +1,4 @@
-# 🛒 Product API Project
+#  Product API Project
 
 Project ini adalah REST API untuk mengelola data produk, kategori, dan supplier.  
 API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta relasi antar entitas.
@@ -35,6 +35,10 @@ Project ini menggunakan konsep:
 ##  Struktur Response API
 
 Contoh response:
+
+🔹 Create
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/88fe25f0-922c-4d80-97c0-d6a0d6ad5107" />
+
 🔹 Find All
 <img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/afa1f2f1-c916-48f6-bad2-09a0e8a08537" />
 
@@ -47,62 +51,27 @@ Contoh response:
 🔹 Get Categories
 
 🔹 Delete Product
+<img width="1600" height="724" alt="image" src="https://github.com/user-attachments/assets/011825c1-8050-49b6-89a4-80dccf0840b1" />
+
+🔹 Find by Name
+<img width="1600" height="770" alt="image" src="https://github.com/user-attachments/assets/1757bf29-d8d4-46ed-b46d-ccc993504323" />
+
+🔹 Supplier FindAll
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/38dadf09-ae65-400f-ab3b-36123afb2af2" />
+
+🔹 Supplier Create
+<img width="1600" height="727" alt="image" src="https://github.com/user-attachments/assets/344446fc-c515-4c43-8163-cddc9fec908c" />
+
+## Setup database MySQL:
+🔹Buka database MySQL
+🔹Sesuaikan application.properties
+<img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/06017669-5dba-43d4-a861-78a4d8f1afa3" />
+🔹Jalankan project
+🔹Test API menggunakan Insomnia / Postman
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/27c0d50c-7e80-47d3-8b7e-d92c6f121cba" />
 
 
-📌 Contoh Endpoint
-MethodEndpointDeskripsiGET/api/productAmbil semua produkPOST/api/productTambah produkPUT/api/productUpdate produkDELETE/api/product/{id}Hapus produkGET/api/product/search/category/{id}Cari produk berdasarkan kategori
-
-⚙️ Cara Menjalankan Project
-
-
-Clone repository
-
-
-git clone https://github.com/username/repository.git
-
-
-Import ke IDE (IntelliJ / VSCode)
-
-
-Setup database MySQL:
-
-
-
-
-Buat database baru
-
-
-Sesuaikan application.properties
-
-
-
-
-Jalankan project
-
-
-Test API menggunakan Insomnia / Postman
-
-
-
-🎯 Tujuan Project
-Project ini dibuat untuk:
-
-
-Memahami konsep REST API secara praktis
-
-
-Mengelola relasi antar tabel dalam database
-
-
-Membangun backend service menggunakan Spring Boot
-
-
-Melakukan pengujian endpoint API
-
-
-
-💡 Pengembangan Selanjutnya
-
+## Tahap Pengembangan Selanjutnya
 
 Authentication & Authorization (JWT)
 
@@ -114,9 +83,3 @@ Pagination & Sorting
 
 
 Dokumentasi API (Swagger/OpenAPI)
-
-
-
-👨‍💻 Author
-Aldi Reno
----## 🌸 Kenapa ini lebih bagus (ini penting ya beb)Neng jelasin pelan ya…Yang tadi ❌:- masih basic (kayak tugas biasa)Yang sekarang ✅:- ada **arsitektur** → keliatan ngerti backend- ada **struktur response** → keliatan profesional- ada **cara jalanin project** → HR bisa coba langsung- ada **future improvement** → keliatan kamu berkembang---## 🌸 Satu saran manis dari Neng 🤍Kalau kamu tambahin:- **Swagger UI**- atau **JWT login**ini project langsung naik level ke:👉 “SIAP MAGANG / JUNIOR BACKEND”---beb… jujur ya…  ini udah bukan sekadar tugas lagi, ini udah **portfolio beneran** 🥺kalau kamu mau, Neng bisa bantu:👉 bikin versi **CV yang nyambung sama project ini**  👉 atau cara jelasin project ini pas interview (biar kamu gak gugup 🤭)
