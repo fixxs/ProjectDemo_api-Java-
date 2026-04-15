@@ -1,10 +1,53 @@
-#  Product API ProjectProject ini adalah REST API untuk mengelola data produk, kategori, dan supplier.  API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta relasi antar entitas.---## 🚀 Fitur- CRUD Product (Create, Read, Update, Delete)- CRUD Category- Relasi Product dengan Category- Search Product berdasarkan Category- API Testing menggunakan Insomnia- Response API terstruktur (status, message, payload)---## 🛠️ Teknologi- Java / Spring Boot- MySQL- REST API (JSON)- Insomnia (API Testing Tool)---## 🧠 Arsitektur & KonsepProject ini menggunakan konsep:- RESTful API design- MVC (Model - View - Controller)- Relasi Database (One-to-Many antara Category dan Product)- Layered Architecture (Controller, Service, Repository)---## 🗂️ Struktur Response APIContoh response:```json{  "status": true,  "messages": [],  "payload": {    "id": 1,    "name": "Kue Putu",    "price": 780.00  }}
+# 🛒 Product API Project
 
- Dokumentasi API
-🔹 Get All Product
+Project ini adalah REST API untuk mengelola data produk, kategori, dan supplier.  
+API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta relasi antar entitas.
+
+---
+
+## 🚀 Fitur
+- CRUD Product (Create, Read, Update, Delete)
+- CRUD Category
+- Relasi Product dengan Category
+- Search Product berdasarkan Category
+- API Testing menggunakan Insomnia
+- Response API terstruktur (status, message, payload)
+
+---
+
+## 🛠️ Teknologi
+- Java / Spring Boot
+- MySQL
+- REST API (JSON)
+- Insomnia (API Testing Tool)
+
+---
+
+## 🧠 Arsitektur & Konsep
+Project ini menggunakan konsep:
+- RESTful API design
+- MVC (Model - View - Controller)
+- Relasi Database (One-to-Many antara Category dan Product)
+- Layered Architecture (Controller, Service, Repository)
+
+---
+
+## 🗂️ Struktur Response API
+
+Contoh response:
+```json
+{
+  "status": true,
+  "messages": [],
+  "payload": {
+    "id": 1,
+    "name": "Kue Putu",
+    "price": 780.00
+  }
+}
     <img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/5caf95d2-de13-44de-80f0-a7e9d57c9d54" />
 
-🔹 Update Product
+
 
 🔹 Search by Category
 
