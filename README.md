@@ -5,7 +5,7 @@ API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta re
 
 ---
 
-## 🚀 Fitur
+##  Fitur
 - CRUD Product (Create, Read, Update, Delete)
 - CRUD Category
 - Relasi Product dengan Category
@@ -15,7 +15,7 @@ API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta re
 
 ---
 
-## 🛠️ Teknologi
+##  Teknologi
 - Java / Spring Boot
 - MySQL
 - REST API (JSON)
@@ -23,7 +23,7 @@ API ini dirancang menggunakan konsep RESTful dan mendukung operasi CRUD serta re
 
 ---
 
-## 🧠 Arsitektur & Konsep
+##  Arsitektur & Konsep
 Project ini menggunakan konsep:
 - RESTful API design
 - MVC (Model - View - Controller)
@@ -32,24 +32,17 @@ Project ini menggunakan konsep:
 
 ---
 
-## 🗂️ Struktur Response API
+##  Struktur Response API
 
 Contoh response:
-```json
-{
-  "status": true,
-  "messages": [],
-  "payload": {
-    "id": 1,
-    "name": "Kue Putu",
-    "price": 780.00
-  }
-}
-    <img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/5caf95d2-de13-44de-80f0-a7e9d57c9d54" />
+🔹 Find All
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/afa1f2f1-c916-48f6-bad2-09a0e8a08537" />
 
-
+🔹 Update
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/ed650716-5493-40b8-a4d9-7d3c582550d3" />
 
 🔹 Search by Category
+<img width="1600" height="774" alt="image" src="https://github.com/user-attachments/assets/4c81af94-b4bc-40d7-9576-ea578e3b4239" />
 
 🔹 Get Categories
 
